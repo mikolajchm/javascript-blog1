@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "nodemon -e scss -x \"sass src/styles/main.scss public/css/style.css\"",
     "init-project": "npm install && npm-run-all init:*",
 
     "init:dirs": "mkdirp sass css vendor images js",
